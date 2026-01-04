@@ -22,6 +22,7 @@ public class BasicCalculator {
                 boolean validOperation = true;
                 if(num2 == 0 && operator.equals("/")){
                     System.out.println("can't divide by zero");
+                    validOperation = false;
                 }else {
                     switch (operator) {
                         case "+":
